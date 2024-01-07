@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MBA</title>
+    <link rel="shortcut icon" href="assets/source/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body id="portal">
+
+    <div id="preloader">
+        <span class="smooth spinner"></span>
+        <img src="assets/source/logo.svg" class="logo" alt="logo">
+    </div>
+
+    <!-- portfolio wrapper -->
+    <div class="portfolio-wrapper">
+
+        <!-- portfolio sidebar -->
+        <div class="portfolio-sidebar">
+            <div class="portfolio-sidebar-header">
+                <a href="#home">
+                    <img src="assets/source/logo.svg" class="portfolio-logo" alt="logo">
+                </a>
+                <div class="cross">
+                    <button type="button" class="close-btn" onclick="sidebarToggle();">
+                        <i class="bi bi-x"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="portfolio-sidebar-body">
+                <a href="#home" class="sidebar-body-link active" onclick="sidebarToggle(event);">
+                    <i class="sidebar-link-icon bi bi-house-door-fill"></i>
+                    Home
+                </a>
+                <a href="#about" class="sidebar-body-link" onclick="sidebarToggle(event);">
+                    <i class="sidebar-link-icon bi bi-person-fill"></i>
+                    About
+                </a>
+                <a href="#service" class="sidebar-body-link" onclick="sidebarToggle(event);">
+                    <i class="sidebar-link-icon bi bi-list-task"></i>
+                    Service
+                </a>
+                <a href="#portfolio" class="sidebar-body-link" onclick="sidebarToggle(event);">
+                    <i class="sidebar-link-icon bi bi-briefcase-fill"></i>
+                    Portfolio
+                </a>
+                <a href="#contact" class="sidebar-body-link" onclick="sidebarToggle(event);">
+                    <i class="sidebar-link-icon bi bi-telephone-fill"></i>
+                    Contact
+                </a>
+            </div>
+            <div class="portfolio-sidebar-footer">
+                <a href="javascript:void(0)" class="sidebar-social-icon">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="javascript:void(0)" class="sidebar-social-icon">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="javascript:void(0)" class="sidebar-social-icon">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="javascript:void(0)" class="sidebar-social-icon">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="javascript:void(0)" class="sidebar-social-icon">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- portfolio content -->
+        <div class="portfolio-content">
+
+            <!-- portfolio content header -->
+            <div class="portfolio-content-header">
+                <button type="button" class="btn-controller" onclick="sidebarToggle()">
+                    <span class="bar-1"></span>
+                    <span class="bar-2"></span>
+                    <span class="bar-3"></span>
+                </button>
+                <a href="javascript:void(0)" class="text-theme decoration-none m-x-1 text-paragraph">
+                    Theme development
+                </a>
+            </div>
+
+            <!-- portfolio content body -->
+            <div class="portfolio-content-body">
+
+                <!-- home content -->
+                <div class="hero-content" id="home">
+                    <div class="text-content">
+                        <div class="text-title text-white m-b-1">
+                            Hello, my name's
+                            <div class="text-theme m-t-1">
+                                Mahi Bashar Akash
+                            </div>
+                        </div>
+                        <div class="text-subtitle text-theme m-b-1">
+                            frontend developer ( intern )
+                        </div>
+                        <div class="text-paragraph text-white m-b-2 line-height-2">
+                            I'm a web developer with extensive for over 1.6 years.
+                            My expertise is to create and creative website design with many more in VueJs framework, Laravel framework so on.
+                        </div>
+                        <a href="javascript:void(0)" class="btn-theme">Download CV</a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="assets/source/akash.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- about content -->
+                <div class="about-content" id="about">
+                    <div class="text-content">
+                        <div class="text-center text-white text-title m-b-2">
+                            About me
+                        </div>
+                        <div class="text-paragraph text-white line-height-2">
+                            I am working <span class="text-theme"> 6 hour per day in morning shift </span>.
+                            Moreover, i have <span class="text-theme"> interest in research </span> creative website
+                            design with new programming language. if anyone want to customize website then he or she
+                            can order me from my website. There are information below in down:
+                        </div>
+                        <div class="progress-activity">
+                            <div class="progress-info">
+                                <div class="progress-label m-b-1 text-white text-paragraph">HTML</div>
+                                <div class="progress-bar">
+                                    <div class="background-cover" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress-info">
+                                <div class="progress-label m-b-1 text-white text-paragraph">CSS / SCSS</div>
+                                <div class="progress-bar">
+                                    <div class="background-cover" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress-info">
+                                <div class="progress-label m-b-1 text-white text-paragraph">Javascript</div>
+                                <div class="progress-bar">
+                                    <div class="background-cover" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress-info">
+                                <div class="progress-label m-b-1 text-white text-paragraph">PHP</div>
+                                <div class="progress-bar">
+                                    <div class="background-cover" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress-info">
+                                <div class="progress-label m-b-1 text-white text-paragraph">MySQL</div>
+                                <div class="progress-bar">
+                                    <div class="background-cover" style="width: 89%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress-info">
+                                <div class="progress-label m-b-1 text-white text-paragraph">Laravel - PHP Framework</div>
+                                <div class="progress-bar">
+                                    <div class="background-cover" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress-info">
+                                <div class="progress-label m-b-1 text-white text-paragraph">VueJs - javascript Framework</div>
+                                <div class="progress-bar">
+                                    <div class="background-cover" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress-info">
+                                <div class="progress-label m-b-1 text-white text-paragraph">Github or bash</div>
+                                <div class="progress-bar">
+                                    <div class="background-cover" style="width: 40%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- service content -->
+                <div class="service-content" id="service">
+                    <div class="service-box-content">
+                        <div class="text-title text-white text-center m-b-2">
+                            Take your services
+                        </div>
+                        <div class="service-flexbox">
+                            <div class="service-box border-theme">
+                                <div class="m-b-1 text-title">
+                                    <i class="bi bi-camera-video text-theme"></i>
+                                </div>
+                                <div class="text-paragraph text-white">
+                                    Explore Video
+                                </div>
+                            </div>
+                            <div class="service-box border-theme">
+                                <div class="m-b-1 text-title">
+                                    <i class="bi bi-app-indicator text-theme"></i>
+                                </div>
+                                <div class="text-paragraph text-white">
+                                    App Development
+                                </div>
+                            </div>
+                            <div class="service-box border-theme">
+                                <div class="m-b-1 text-title">
+                                    <i class="bi bi-backpack2-fill text-theme"></i>
+                                </div>
+                                <div class="text-paragraph text-white">
+                                    Educational Video
+                                </div>
+                            </div>
+                            <div class="service-box border-theme">
+                                <div class="m-b-1 text-title">
+                                    <i class="bi bi-stack text-theme"></i>
+                                </div>
+                                <div class="text-paragraph text-white">
+                                    Presentation
+                                </div>
+                            </div>
+                            <div class="service-box border-theme">
+                                <div class="m-b-1 text-title">
+                                    <i class="bi bi-shop text-theme"></i>
+                                </div>
+                                <div class="text-paragraph text-white">
+                                    Web Marketing
+                                </div>
+                            </div>
+                            <div class="service-box border-theme">
+                                <div class="m-b-1 text-title">
+                                    <i class="bi bi-tools text-theme"></i>
+                                </div>
+                                <div class="text-paragraph text-white">
+                                    Software usability
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- portfolio content -->
+                <div class="portfolio-content" id="portfolio">
+                    <div class="explore-content">
+                        <div class="text-title text-white text-center m-t-2 m-b-2">
+                            Explore our project
+                        </div>
+                        <div class="explore-flexbox">
+                            <div class="explore-box">
+                                <img src="assets/source/admin-website-template.png" alt="admin website template">
+                                <div class="explore-box-effect text-paragraph">
+                                    <a href="javascript:void(0)" class="btn-theme">
+                                        Admin Template
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="explore-box">
+                                <img src="assets/source/dress-template.png" alt="dress template">
+                                <div class="explore-box-effect text-paragraph">
+                                    <a href="javascript:void(0)" class="btn-theme">
+                                        Dress Template
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="explore-box">
+                                <img src="assets/source/bookmark-template.png" alt="bookmark template">
+                                <div class="explore-box-effect text-paragraph">
+                                    <a href="javascript:void(0)" class="btn-theme">
+                                        Bookmark Template
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- contact content -->
+                <div class="contact-content" id="contact">
+                    <div class="form-content">
+                        <div class="text-title text-white text-center m-b-1 w-100">
+                            Get in touch
+                        </div>
+                        <div class="form-group m-w-50">
+                            <label for="full_name" class="form-label text-paragraph text-white">Full Name</label>
+                            <input id="full_name" type="text" name="full_name" class="form-control" required autocomplete="new-full-name">
+                        </div>
+                        <div class="form-group m-w-50">
+                            <label for="email" class="form-label text-paragraph text-white">Email</label>
+                            <input id="email" type="text" name="email" class="form-control" required autocomplete="new-email">
+                        </div>
+                        <div class="form-group m-w-100">
+                            <label for="subject" class="form-label text-paragraph text-white">Subject</label>
+                            <input id="subject" type="text" name="subject" class="form-control" required autocomplete="new-subject">
+                        </div>
+                        <div class="form-group m-w-100">
+                            <label for="message" class="form-label text-paragraph text-white">Message</label>
+                            <textarea name="message" id="message" class="form-textarea" cols="30" rows="10" required autocomplete="new-message"></textarea>
+                        </div>
+                        <div class="form-group m-w-100">
+                            <button type="button" class="btn-theme">
+                                SUBMIT
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- portfolio content footer -->
+            <div class="portfolio-content-footer">
+
+                <span>
+                    <a href="javascript:void(0)" class="text-white decoration-none m-x-1 p-b-1 text-paragraph res-footer">
+                        <i class="bi bi-telephone-fill m-e-1"></i> +880 01400 125289
+                    </a>
+                    <a href="javascript:void(0)" class="text-white decoration-none m-x-1 p-b-1 text-paragraph res-footer">
+                        <i class="bi bi-envelope-fill m-e-1"></i> mahibashar2023@gmail.com
+                    </a>
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
